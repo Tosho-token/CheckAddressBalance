@@ -1,0 +1,31 @@
+
+<!--
+TOSHO token , last revision december 2021 
+This example is only basic.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script defer src="../js/checkBalance.js"></script>
+    <title>TOSHO</title>
+</head>
+
+<body>
+    <p>Check balance token:</p>
+    <div class="input-group mb-3">
+        <span><button id="checkToshoButton">Check</button></span>
+        <input type="text" id="addressCheck" placeholder="Paste address and press check" aria-describedby="basic-addon3">
+    </div>
+    <div class="form-group">
+        <label for="balanceSupplyCheck">Balance:</label>
+        <span id="balanceSupplyCheck">waiting ...</span>
+    </div>
+</body>
+
+</html>
